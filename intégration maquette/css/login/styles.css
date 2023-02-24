@@ -1,0 +1,42 @@
+@import '../css_partial/hero.css';
+@import '../css_partial/footer.css';
+@import '../css_partial/nav.css';
+@import '../css_partial/banner.css';
+@import '../css_partial/sponso.css';
+.login {
+  text-align: center;
+  height: 500px;
+  width: 100%;
+  margin: 50px;
+}
+.login .card-login {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 400px;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.login .card-login p {
+  color: #9096B2;
+}
+.login .card-login .login-text h2 {
+  font-family: 'Josefin sans', sans-serif;
+  font-weight: bold;
+}
+.login .card-login .login-text input {
+  width: 70%;
+  height: 40px;
+  margin: 10px;
+  border: solid 1px #EEEFFB;
+}
+.login .card-login .login-text inputplaceholder {
+  color: #9096B2;
+}
+.login .card-login button {
+  color: #ffff;
+  font-weight: 600;
+  width: 70%;
+  padding: 12px;
+  background-color: #FB2E86;
+  border-color: transparent;
+}

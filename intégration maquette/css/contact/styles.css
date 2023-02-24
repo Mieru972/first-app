@@ -1,0 +1,111 @@
+@import '../css_partial/hero.css';
+@import '../css_partial/footer.css';
+@import '../css_partial/nav.css';
+.banner {
+  background-color: #EEEFFB;
+  width: 100%;
+  height: 150px;
+}
+.banner .text-banner {
+  margin-left: 140px;
+  padding: 20px;
+}
+.banner .text-banner h1 {
+  color: #0D0E43;
+  font-size: 2rem;
+}
+.banner .text-banner .fill {
+  display: flex;
+}
+.banner .text-banner .fill p {
+  margin: 0px 5px;
+}
+.contact-us {
+  margin: 0 auto;
+  justify-items: center;
+}
+.contact-us .down-info,
+.contact-us .top-info {
+  display: flex;
+  padding: 50px;
+}
+.contact-us .down-info .card-us,
+.contact-us .top-info .card-us {
+  width: 50%;
+}
+.contact-us .down-info .card-us h1,
+.contact-us .top-info .card-us h1 {
+  color: #0D0E43;
+  font-size: 2rem;
+}
+.contact-us .down-info .card-us p,
+.contact-us .top-info .card-us p {
+  width: 50%;
+}
+.contact-us .down-info .card-us img,
+.contact-us .top-info .card-us img {
+  width: 80%;
+}
+.contact-us .top-info .card-us:nth-child(1) .cercle-color img {
+  width: 20px;
+  margin-top: 20px;
+  text-align: start;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info {
+  display: flex;
+  text-align: start;
+  flex-wrap: wrap;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info .first-info {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info .first-info .rond {
+  width: 40px;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info .first-info .rond img {
+  width: 40px;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info .first-info .info-text {
+  width: 100%;
+}
+.contact-us .top-info .card-us:nth-child(2) .contact-info .first-info .info-text p {
+  margin-left: 20px !important;
+  margin: 0px;
+  width: 100%;
+}
+.contact-us .down-info .card-us:nth-child(1) p {
+  text-align: justify;
+  width: 100%;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info {
+  width: 100%;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info .u-first_info {
+  display: flex;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info .u-first_info input {
+  margin: 0 20px;
+  width: 32%;
+  height: 30px;
+  border: solid 1px #EEEFFB;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info .u-first_info inputplaceholder {
+  color: #9096B2;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info input {
+  width: 70%;
+  margin: 20px;
+  height: 30px;
+  border: solid 1px #EEEFFB;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info input:nth-child(3) {
+  padding-bottom: 200px;
+}
+.contact-us .down-info .card-us:nth-child(1) .u-info inputplaceholder {
+  color: #9096B2;
+}
+.contact-us .down-info .card-us:nth-child(4) img {
+  width: 100%;
+}

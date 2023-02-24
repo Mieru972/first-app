@@ -1,0 +1,58 @@
+@import '../css_partial/hero.css';
+@import '../css_partial/footer.css';
+@import '../css_partial/nav.css';
+@import '../css_partial/banner.css';
+@import '../css_partial/sponso.css';
+.barre-filter {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  color: #151875;
+  font-family: 'Josefin sans', sans-serif;
+}
+.barre-filter .search-filter {
+  display: flex;
+}
+.barre-filter .search-filter .per,
+.barre-filter .search-filter .view,
+.barre-filter .search-filter .Sort_by {
+  display: flex;
+  margin: 50px;
+}
+.barre-filter .search-filter .per p,
+.barre-filter .search-filter .view p,
+.barre-filter .search-filter .Sort_by p {
+  margin: 10px;
+}
+.barre-filter .search-filter .per .input,
+.barre-filter .search-filter .view .input,
+.barre-filter .search-filter .Sort_by .input {
+  width: 50px;
+}
+.grid-list-products {
+  margin-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #151875;
+  font-family: 'Josefin sans', sans-serif;
+}
+.grid-list-products .grid-card {
+  width: 20%;
+  margin: 5px;
+  text-align: center;
+}
+.grid-list-products .grid-card img {
+  background-color: #F6F7FB;
+}
+.grid-list-products .grid-card .bottom_card {
+  display: flex;
+  justify-content: center;
+}
+.grid-list-products .grid-card .bottom_card p {
+  margin: 0 40px;
+}
+.grid-list-products .grid-card .bottom_card p:nth-child(2) {
+  color: #FB2E86;
+  text-decoration: line-through;
+}

@@ -1,0 +1,44 @@
+footer {
+  background-color: #EEEFFB;
+  width: 100%;
+  height: auto;
+}
+footer p {
+  color: #8A8FB9;
+}
+footer .info_footer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+footer .info_footer input {
+  border: transparent;
+  height: 30px;
+  white-space: 220px;
+}
+footer .info_footer input #placeholder {
+  margin: 10px;
+}
+footer .info_footer h2 {
+  font-family: 'josefin sans', sans-serif;
+}
+footer .info_footer ul {
+  list-style: none;
+}
+footer .info_footer ul li {
+  margin-top: 15px;
+}
+footer .info_footer ul li a {
+  text-decoration: none;
+  color: #8A8FB9;
+}
+footer .reseaux {
+  background-color: #E7E4F8;
+  margin: 0;
+  height: 53px;
+}
+footer .reseaux p {
+  color: #9DA0AE;
+  line-height: 53px;
+  text-align: center;
+}

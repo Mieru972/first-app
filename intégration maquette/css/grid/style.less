@@ -1,0 +1,62 @@
+@import '../css_partial/hero.css';
+@import '../css_partial/footer.css';
+@import '../css_partial/nav.css';
+@import '../css_partial/banner.css';
+@import '../css_partial/sponso.css';
+
+.barre-filter{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    color: #151875;
+    font-family: 'Josefin sans',sans-serif;
+    .search-filter{
+        display: flex;
+        
+        .per,.view ,.Sort_by{
+            display: flex;
+            margin: 50px;
+
+            p{
+                margin: 10px;
+            }
+
+            .input{
+                width: 50px;
+            }
+        }
+    }
+}
+
+.grid-list-products {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #151875;
+    font-family: 'Josefin sans',sans-serif;
+
+    .grid-card {
+        width: 20%;
+        margin: 5px;
+        text-align: center;
+        img{
+            background-color: #F6F7FB;
+           
+        }
+
+        .bottom_card{
+            display: flex;
+            justify-content: center;
+
+            p{
+                margin: 0 40px;
+
+                &:nth-child(2){
+                    color: #FB2E86;
+                    text-decoration: line-through;
+                }
+            }
+        }
+    }
+}

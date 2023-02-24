@@ -1,0 +1,147 @@
+@import '../css_partial/hero.css';
+@import '../css_partial/footer.css';
+@import '../css_partial/nav.css';
+
+.banner {
+    background-color: #EEEFFB;
+    width: 100%;
+    height: 150px;
+  
+    .text-banner{
+        margin-left: 140px;
+        padding: 20px;
+
+        h1{
+            color: #0D0E43;
+            font-size: 2rem;
+        }
+
+        .fill{
+            display: flex;
+            p{
+                margin: 0px 5px;
+            }
+        }
+    }
+
+}
+
+.contact-us{
+    margin: 0 auto;
+    justify-items: center;
+    .down-info,.top-info{
+        display: flex;
+        padding: 50px;
+
+        .card-us{
+            width: 50%;
+
+            h1{
+                color: #0D0E43;
+                font-size: 2rem;
+                }
+
+            p{
+                width: 50%;
+            }
+
+            img{
+                width: 80%;
+            }
+        }
+    }
+
+
+    .top-info{
+        .card-us:nth-child(1){
+
+            .cercle-color{
+                img{
+                    width:20px;
+                    margin-top: 20px;
+                    text-align: start;
+                }
+    
+            }
+        }
+
+        .card-us:nth-child(2){
+            .contact-info{
+                display: flex;
+                text-align: start;
+                flex-wrap: wrap;
+
+          
+                .first-info{
+                    display: flex;
+                    width: 50%;
+                    margin: 0 auto;
+                    .rond{
+                        width: 40px;
+                        img{
+                            width: 40px;
+                        }
+                    }
+
+                    .info-text{
+                        width: 100%;
+
+                        p{
+                            margin-left: 20px !important;
+                            margin: 0px;
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .down-info{
+        .card-us:nth-child(1){
+            p{
+                text-align: justify;
+                width: 100%;
+            }
+
+            .u-info{
+                width:100%;
+             
+                .u-first_info{
+                    display: flex;
+                    input{
+                        margin: 0 20px;
+                        width: 32%;
+                        height: 30px;
+                        border: solid 1px #EEEFFB;
+
+                        &placeholder{
+                            color: #9096B2;
+                        }
+                    }
+                }
+                
+                input{
+                    width:70%;
+                    margin: 20px;
+                    height: 30px;
+                    border: solid 1px #EEEFFB;
+
+                    &:nth-child(3){
+                        padding-bottom: 200px;
+                    }
+                    &placeholder{
+                        color: #9096B2;
+                    }
+                }
+            }
+        }
+        .card-us:nth-child(4){
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+
+}

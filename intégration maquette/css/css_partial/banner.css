@@ -1,0 +1,20 @@
+.banner {
+  background-color: #EEEFFB;
+  width: 100%;
+  height: 300px;
+}
+.banner .text-banner {
+  margin-left: 450px;
+  padding: 20px;
+}
+.banner .text-banner h1 {
+  color: #151875;
+  font-family: 'Josefin sans', sans-serif;
+  font-size: 3rem;
+}
+.banner .text-banner .fill {
+  display: flex;
+}
+.banner .text-banner .fill p {
+  margin: 0px 5px;
+}
